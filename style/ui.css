@@ -1,0 +1,47 @@
+.ui-slider-horizontal {
+height: .8em;
+}
+.ui-slider-horizontal .ui-slider-range {
+top: 0;
+height: 100%;
+}
+.ui-widget-content {
+border: 1px solid #DDD;
+background: #fff;
+color: #333;
+position: relative;
+height:18px;
+}
+.ui-widget-header {
+background:#78aae3;
+box-shadow:0 0 10px #5b8cc4 inset;
+color: white;
+
+}
+.ui-slider .ui-slider-range{
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    border:5px solid #fff;
+    border-radius:30px;
+    height:15px;
+    width:15px;
+    top:-.3em;
+    margin-left: -1.6em;
+    box-shadow:0 0 5px #ccc;
+    background:#72aff3;
+    cursor: pointer;
+    outline:none;
+    z-index:3;
+}
+.price-range-wrap #amount{
+    border:0;
+    font-weight:bold;
+    font-size:14px;
+    color:#666;
+}
